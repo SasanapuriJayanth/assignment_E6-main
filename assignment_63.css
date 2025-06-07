@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background-image.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.login-container {
+    position: relative;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 60px 30px 30px;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 700px;
+}
+
+.avatar {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: rgba(37, 35, 35, 0.9);
+    font-size: 14px;
+    border-bottom: 2px solid white;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #00cc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px white;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
